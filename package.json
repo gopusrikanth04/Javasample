@@ -16,7 +16,6 @@
         "undeploy": "cf undeploy Javasample --delete-services --delete-service-keys --delete-service-brokers",
         "build": "rimraf resources mta_archives && mbt build --mtar archive",
         "deploy": "cf deploy mta_archives/archive.mtar --retries 1",
-        "watch": "cds watch",
-        "hybrid": "cds watch --profile hybrid"
+        "watch": "cds watch"
     }
 }
